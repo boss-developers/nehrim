@@ -3,12 +3,11 @@
 \ \ A silent comment - will be ignored by the program.
 \ % A Bashed Patch suggestion for the mod above.
 \ ? A comment about the mod above.
-\ * Flags a critical mistake for Nehrim installation in relation to the mod above.
 \ : An installation requirement (ie another mod or OBSE etc.).
 \ " A specific incompatibility.
 \
-\ > process this line only if FCOM is installed. FCOM will never be installed though, so this shouldn't be used in the Nehrim masterlist.
-\ < process this line only if FCOM isn't installed. FCOM will never be installed though, so this shouldn't be used in the Nehrim masterlist.
+\ Unused symbols: * $ " > <
+\ Don't try using them, as they aren't assigned to do anything special.
 \
 \ Multiple remark/comment/bash/error lines allowed.
 \ Lines beginning with \ and blank lines are treated the same (ignored).
@@ -17,9 +16,4 @@
 \----
 Nehrim.esm
 ? Masterlist Information: $Revision: 1552 $, $Date: 2010-09-24 14:11:23 +0100 (Fri, 24 Sep 2010) $, $LastChangedBy: WrinklyNinja1 $
-Oblivion.esm
-* Oblivion.esm must not be present in a Nehrim install. Delete.
-Oblivion_1.1.esm
-* Oblivion.esm must not be present in a Nehrim install. Delete.
-Oblivion_SI.esm
-* Oblivion.esm must not be present in a Nehrim install. Delete.
+\EndGroup\\
