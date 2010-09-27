@@ -6,7 +6,7 @@
 \ : An installation requirement (ie another mod or OBSE etc.).
 \ " A specific incompatibility.
 \
-\ Unused symbols: * $ " > <
+\ Unused symbols: * $ ^ > <
 \ Don't try using them, as they aren't assigned to do anything special.
 \
 \ Multiple remark/comment/bash/error lines allowed.
