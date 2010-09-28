@@ -14,6 +14,218 @@
 
 \BeginGroup\: ESMs
 \----
+
 Nehrim.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+ScreenEffects.esm
+
+\EndGroup\\
+
+\BeginGroup\: Nehrim Plugins
+\--------
+\
+\Not sure if these are even official (I don't have Nehrim installed), but figured if they are, they should load early.
+
+NehrimData.esp
+NehrimEnglish.esp
+
+\EndGroup\\
+
+\BeginGroup\: Lighting
+\''''''''
+\
+\Should load early to allow more 'important' mods to override.
+
+WindowLightingSystem.esp
+
+\EndGroup\\
+
+\BeginGroup\: General Base Mods
+\'''''''''''''''''
+\
+\Includes nearly all new items (except weapons and armor).
+\Low priority mods.
+
+NehrimCameraMod.esp
+kuerteeAutoFirstThirdPersonView.esp
+QZ Easy Menus.esp
+Display Stats.esp
+
+\EndGroup\\
+
+\BeginGroup\: Items (armor and weapons)
+\-------------------------
+\
+\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
+\Some items will need to go after overhaul or location altering mods to appear.
+
+MODArnTemplar.esp
+
+\EndGroup\\
+
+\BeginGroup\: Body Replacer Armour & Clothing
+\--------------------
+\
+\Stuff for use with body replacers.
+\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
+
+DarkSaintUFF.esp
+lotusarmorv1.esp
+
+\EndGroup\\
+
+\BeginGroup\: Hotkeys
+\---------
+\Load order independent. Use only one unless documentation says otherwise.
+
+Enhanced Hotkeys.esp
+HotkeyCasting.esp
+FastEquipping.esp
+? Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
+FastEquippingNehrim.esp
+STHotkeys.esp
+? Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
+
+\EndGroup\\
+
+\BeginGroup\: Quests and Locations 1
+\----------------------
+\
+\All mods that add or change quests,
+\add player houses,
+\add or change dungeons,
+\add or change towns, villiages, cities and/or landscape.
+\
+\Mods not in alphabetical order have been hand placed to avoid conflicts (as much as possible).
+
+The Cloud Tower.esp
+
+\EndGroup\\
+
+\BeginGroup\: Overrides
+\---------
+\
+\Mods that deliberately change specific things about vanilla Oblivion, overhauls or other mods.
+\Some late loading quests and locations in here too.
+
+ATakesAll.esp
+DropLitTorchOBSE.esp
+ROM Drop Lit Torches.esp
+kuerteeInventoryIsABackpack.esp
+WeaponRebalanceNehrim.esp
+NehrimWeaponRebalance_EnglishPatch.esp
+NehrimTEMP_ENGRISH_TEXT.esp
+Ring of Console.esp
+Toggleable Quantity Prompt.esp
+
+\EndGroup\\
+
+\BeginGroup\: Realism
+\'''''''
+\
+\Mainly health, encumberance and fatigue overhauls.
+\Will override changes made by overhaul mods like OOO.
+
+SM Encumbrance and Fatigue.esp
+
+\EndGroup\\
+
+\BeginGroup\: Thievery, Sneaking and Crime
+\''''''''''''''''''''''''''''
+\
+\Overrides overhauls.
+
+StealthOverhaul_Nehrim.esp
+Realistic Sneak for NPCs.esp
+ZumbsLockpickingMod - OBSE.esp
+NehrimSneakFix.esp
+
+\EndGroup\\
+
+\BeginGroup\: Combat
+\''''''
+\
+\Overrides 'overhauls'.
+
+Denock Arrows.esp
+BetterBlocking.esp
+kuerteeAttributeAndSkillBasedDamageModifiers.esp
+? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
+Phitt's Phighting Phixes.esp
+
+\EndGroup\\
+
+\BeginGroup\: Skills, Attributes and Leveling
+\'''''''''''''''''''''''''''''''
+\
+\Unlikely to interact with other kinds of mods.
+\Includes related mods bundled with OOO and similar optional items from Fran's.
+
+All+5AttributeModifiers.esp
+
+\EndGroup\\
+
+\BeginGroup\: Beauty Packs & Race Changes\Addons
+\--------------------------
+\
+\Hair, eyes, race addons & changes and other cosmetics.
+
+AbyssDemon - Nehrim.esp
+X.Races.Comp.esp
+
+\EndGroup\\
+
+\BeginGroup\: Shader mods
+\-----------
+\
+\Need to go after new items to affect them.
+
+Nehrim_Initial_Glow-Armor_only.esp
+Nehrim - Refractionless Chameleon.esp
+ScreenControls.esp
+
+\EndGroup\\
+
+\BeginGroup\: Pre Bash
+\--------
+
+MiniMap.esp
+
+\EndGroup\\
+
+\BeginGroup\: Bashed Patch
+\------------
+
+Bashed Patch FCOM.esp
+Bashed Patch, 0.esp
+Bashed Patch, 1.esp
+Bashed Patch, 2.esp
+Bashed Patch, 3.esp
+Bashed Patch, 4.esp
+Bashed Patch, 5.esp
+Bashed Patch, 6.esp
+Bashed Patch, 7.esp
+Bashed Patch, 8.esp
+Bashed Patch, 9.esp
+Bashed Patch.esp
+Bashed Patch, Warrior.esp
+Bashed Patch, Thief.esp
+Bashed Patch, Mage.esp
+Bashed Patch, Test.esp
+\EndGroup\\
+
+\BeginGroup\: Sorted Duke Patrick's Mods
+\''''''''''''''''''''''''''''
+
+Duke Patricks - Combat Archery.esp
+Duke Patricks - Who Goes There.esp
+
+
+\EndGroup\\
+
+\BeginGroup\: Last Files
+\---------
+
+FormID Finder4.esp
+
 \EndGroup\\
