@@ -15,5 +15,5 @@
 \BeginGroup\: ESMs
 \----
 Nehrim.esm
-? Masterlist Information: $Revision: 1552 $, $Date: 2010-09-24 14:11:23 +0100 (Fri, 24 Sep 2010) $, $LastChangedBy: WrinklyNinja1 $
+? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 \EndGroup\\
