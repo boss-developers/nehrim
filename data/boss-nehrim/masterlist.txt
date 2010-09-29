@@ -24,7 +24,7 @@ ScreenEffects.esm
 \BeginGroup\: Nehrim Plugins
 \--------
 \
-\Not sure if these are even official (I don't have Nehrim installed), but figured if they are, they should load early.
+\The official Nehrim Data files. These should always load as the first ESPs for Nehrim.
 
 NehrimData.esp
 NehrimEnglish.esp
