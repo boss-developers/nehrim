@@ -111,7 +111,9 @@ The Cloud Tower.esp
 ATakesAll.esp
 DropLitTorchOBSE.esp
 ROM Drop Lit Torches.esp
+FastRoasting(EN).esp
 kuerteeInventoryIsABackpack.esp
+martial.esp
 WeaponRebalanceNehrim.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NehrimTEMP_ENGRISH_TEXT.esp
@@ -172,6 +174,7 @@ All+5AttributeModifiers.esp
 
 AbyssDemon - Nehrim.esp
 X.Races.Comp.esp
+axolotl lady.esp
 
 \EndGroup\\
 
