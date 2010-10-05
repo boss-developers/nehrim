@@ -175,6 +175,7 @@ All+5AttributeModifiers.esp
 AbyssDemon - Nehrim.esp
 X.Races.Comp.esp
 axolotl lady.esp
+Verrater Demoness.esp
 
 \EndGroup\\
 
