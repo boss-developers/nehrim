@@ -83,9 +83,14 @@ Underworld Armor.esp
 \Stuff for use with body replacers.
 \VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
 
+Black Heart.esp
 DarkSaintHGEC.esp
 DarkSaintUFF.esp
 lotusarmorv1.esp
+MHSNKirin.esp
+NexonsArmoryENG.esp
+R18PN - FuruFuru Armor.esp
+RRElphintos.esp
 
 \EndGroup\\
 
