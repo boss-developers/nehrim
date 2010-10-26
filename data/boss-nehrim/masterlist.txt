@@ -31,6 +31,12 @@ NehrimEnglish.esp
 
 \EndGroup\\
 
+\BeginGroup\: Earliest mods
+
+ASTnehrimHotfixes01(EN).esp
+
+\EndGroup\\
+
 \BeginGroup\: Lighting
 \''''''''
 \
@@ -184,6 +190,9 @@ Lightweight Potions.esp
 \
 \Overrides overhauls.
 
+attack and hide medium v2.1.esp
+attack and hide easier v2.1.esp
+attack and hide harder v2.1.esp
 SM Combat Hide.esp
 StealthOverhaul_Nehrim.esp
 Realistic Sneak for NPCs.esp
@@ -209,8 +218,12 @@ Denock Arrows.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 marksman_challenge.esp
+marksman_challenge_alpha5.esp 
 martial.esp
 Phitt's Phighting Phixes.esp
+DeadlyReflex 5 - Combat Moves.esp
+? Requires Nehrim Patch: http://www.tesnexus.com/downloads/file.php?id=35157
+
 
 \EndGroup\\
 
