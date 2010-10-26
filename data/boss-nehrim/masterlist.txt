@@ -93,6 +93,7 @@ Underworld Armor.esp
 Black Heart.esp
 DarkSaintHGEC.esp
 DarkSaintUFF.esp
+EY_AoD.esp
 lotusarmorv1.esp
 MHSNKirin.esp
 NexonsArmoryENG.esp
@@ -153,6 +154,7 @@ WeaponRebalanceNehrim.esp
 Nehrim_Bigger_Bears.esp
 Nehrim_Bigger_Bears_and_Smaller_Foxes.esp
 Nehrim_Drop_Torch_0.1.esp
+Nehrim - New Rune Spells.esp
 Nehrim_Smaller_Foxes.esp
 NehrimTEMP_ENGRISH_TEXT.esp
 NehrimWeaponRebalance_EnglishPatch.esp
