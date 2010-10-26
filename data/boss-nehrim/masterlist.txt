@@ -63,6 +63,7 @@ Duke Patricks - Who Goes There.esp
 \These mods don't need to go anywhere, they're fully scripted, so load them early, out of the way of the more placement-critical sections near the bottom of the masterlist.
 
 FormID Finder4.esp
+Oblivion Graphics Extender Support.esp
 
 \EndGroup\\
 
@@ -203,12 +204,11 @@ Enhanced Grabbing.esp
 \
 \Overrides 'overhauls'.
 
-Deadly Reflex 5 - Combat Moves.esp
-Denock Arrows.esp
-Duke Patricks - Combat Archery.esp
 BetterBlocking.esp
+Denock Arrows.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
+marksman_challenge.esp
 martial.esp
 Phitt's Phighting Phixes.esp
 
@@ -237,6 +237,19 @@ Verrater Demoness.esp
 
 ASTnehrimKimUpgrade.esp
 BetterLookingMaleKim.esp
+
+\EndGroup\\
+
+\BeginGroup\: Companions
+\----------
+\
+\Those related to companion mod systems. Most others in Quests section.
+\Recommended by authors to load very late.
+\
+\Mods with custom hair and eyes need tags.
+
+CompanionMaster.esp
+? Some menu functions may not work.
 
 \EndGroup\\
 
