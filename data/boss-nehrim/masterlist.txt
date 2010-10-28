@@ -174,10 +174,9 @@ FastRoasting(EN).esp
 kuerteeInventoryIsABackpack.esp
 : master reassigned to Nehrim.esm
 WeaponRebalanceNehrim.esp
+Nehrim_Drop_Torch_0.1.esp
 Nehrim_Bigger_Bears.esp
 Nehrim_Bigger_Bears_and_Smaller_Foxes.esp
-Nehrim_Drop_Torch_0.1.esp
-Nehrim - New Rune Spells.esp
 Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
 ? Removes Spiders
