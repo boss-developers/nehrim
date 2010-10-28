@@ -62,7 +62,7 @@ Nehrim Blackscreenfix.esp
 \Low priority mods.
 
 BookTrackerOBSE.esp
-: Requires master reassigned to Nehrim.esm
+: master reassigned to Nehrim.esm
 ? Some report does not work with Nehrim.
 whN-HHSOA.esp
 NehrimCameraMod.esp
