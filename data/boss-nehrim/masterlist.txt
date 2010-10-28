@@ -43,7 +43,7 @@ ASTnehrimHotfixes01(EN).esp
 \Should load early to allow more 'important' mods to override.
 
 WindowLightingSystem.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 ? May be unnecessary as many windows are lit.
 
 \EndGroup\\
@@ -62,8 +62,8 @@ Nehrim Blackscreenfix.esp
 \Low priority mods.
 
 BookTrackerOBSE.esp
-" Requires master reassigned to Nehrim.esm
-? Some report does not work.
+: Requires master reassigned to Nehrim.esm
+? Some report does not work with Nehrim.
 whN-HHSOA.esp
 NehrimCameraMod.esp
 kuerteeAutoFirstThirdPersonView.esp
@@ -73,7 +73,7 @@ Display Stats.esp
 tw1_fov_adjustor.esp
 : OBSE.
 Duke Patricks - Who Goes There.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 
 \EndGroup\\
 
@@ -84,7 +84,7 @@ Duke Patricks - Who Goes There.esp
 
 FormID Finder4.esp
 Oblivion Graphics Extender Support.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 ? The support plugin does not actually work. Shaders must be loaded with the shaderlist.
 
 \EndGroup\\
@@ -167,12 +167,12 @@ The Cloud Tower.esp
 
 ATakesAll.esp
 DropLitTorchOBSE.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 ROM Drop Lit Torches.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 FastRoasting(EN).esp
 kuerteeInventoryIsABackpack.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 WeaponRebalanceNehrim.esp
 Nehrim_Bigger_Bears.esp
 Nehrim_Bigger_Bears_and_Smaller_Foxes.esp
@@ -196,7 +196,7 @@ Toggleable Quantity Prompt.esp
 \Will override changes made by overhaul mods like OOO.
 
 SM Encumbrance and Fatigue.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 
 \EndGroup\\
 
@@ -221,18 +221,18 @@ Lightweight Potions.esp
 \Overrides overhauls.
 
 attack and hide medium v2.1.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 attack and hide easier v2.1.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 attack and hide harder v2.1.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 SM Combat Hide.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 StealthOverhaul_Nehrim.esp
 Realistic Sneak for NPCs.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 ZumbsLockpickingMod - OBSE.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 NehrimSneakFix.esp
 
 \EndGroup\\
@@ -241,7 +241,7 @@ NehrimSneakFix.esp
 \'''''''''''''''''
 
 Enhanced Grabbing.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 
 \EndGroup\\
 
@@ -251,18 +251,18 @@ Enhanced Grabbing.esp
 \Overrides 'overhauls'.
 
 BetterBlocking.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 Denock Arrows.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 marksman_challenge.esp
 marksman_challenge_alpha5.esp 
 martial.esp
 Phitt's Phighting Phixes.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 DeadlyReflex 5 - Combat Moves.esp
-" Requires Nehrim Patch: http://www.tesnexus.com/downloads/file.php?id=35157
+" Requires Nehrim Patch (replacement esp): http://www.tesnexus.com/downloads/file.php?id=35157
 
 
 \EndGroup\\
@@ -316,7 +316,7 @@ CompanionMaster.esp
 Nehrim_Initial_Glow-Armor_only.esp
 Nehrim - Refractionless Chameleon.esp
 ScreenControls.esp
-" Requires master reassigned to Nehrim.esm
+: Requires master reassigned to Nehrim.esm
 MotionBlur.esp
 ? Fix available for 'Over-Darkening' issue: http://tr.im/scy6
 
