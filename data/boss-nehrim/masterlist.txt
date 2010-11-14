@@ -95,7 +95,8 @@ Oblivion Graphics Extender Support.esp
 \VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
 \Some items will need to go after overhaul or location altering mods to appear.
 
-GizDredfireNEH.esp
+GizDredfireNEH_DV.esp
+Lederrestung.esp
 Nehrim_Diving_suit.esp
 MODArnTemplar.esp
 Underworld Armor.esp
@@ -213,7 +214,6 @@ Nehrim - New Rune Spells.esp
 Lightweight Potions.esp
 
 \EndGroup\\
-\EndGroup\\
 
 \BeginGroup\: Thievery, Sneaking and Crime
 \''''''''''''''''''''''''''''
@@ -276,6 +276,9 @@ DeadlyReflex 5 - Combat Moves.esp
 
 All+5AttributeModifiers.esp
 Attribute.esp
+" New version available.
+Attribute_linear.esp
+Attribute_steps.esp
 
 \EndGroup\\
 
