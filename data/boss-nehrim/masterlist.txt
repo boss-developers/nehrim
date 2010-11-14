@@ -63,12 +63,12 @@ Nehrim Blackscreenfix.esp
 
 BookTrackerOBSE.esp
 : master reassigned to Nehrim.esm
-? Some report does not work with Nehrim.
 whN-HHSOA.esp
 NehrimCameraMod.esp
 kuerteeAutoFirstThirdPersonView.esp
 ToggleZoomAnyKey.esp
 QZ Easy Menus.esp
+Quest Log Manager.esp
 Display Stats.esp
 tw1_fov_adjustor.esp
 : OBSE.
@@ -250,6 +250,7 @@ Enhanced Grabbing.esp
 \
 \Overrides 'overhauls'.
 
+BFG's Enhanced Armory.esp
 BetterBlocking.esp
 : master reassigned to Nehrim.esm
 Denock Arrows.esp
