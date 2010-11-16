@@ -66,6 +66,7 @@ BookTrackerOBSE.esp
 whN-HHSOA.esp
 NehrimCameraMod.esp
 kuerteeAutoFirstThirdPersonView.esp
+Immersive Combat Music.esp
 ToggleZoomAnyKey.esp
 QZ Easy Menus.esp
 Quest Log Manager.esp
