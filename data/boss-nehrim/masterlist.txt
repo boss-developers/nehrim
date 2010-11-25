@@ -98,6 +98,7 @@ Oblivion Graphics Extender Support.esp
 \Some items will need to go after overhaul or location altering mods to appear.
 
 GizDredfireNEH_DV.esp
+GizBladeset01Neh.esp
 Lederrestung.esp
 Nehrim_Diving_suit.esp
 MODArnTemplar.esp
