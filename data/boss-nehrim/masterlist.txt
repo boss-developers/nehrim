@@ -34,6 +34,7 @@ NehrimEnglish.esp
 \BeginGroup\: Earliest mods
 
 ASTnehrimHotfixes01(EN).esp
+Nehrim Improvement.esp
 
 \EndGroup\\
 
@@ -113,16 +114,24 @@ Underworld Armor.esp
 \Stuff for use with body replacers.
 \VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
 
+1SB_PureFantasyMage_Outfits.esp
+Alexscorpiansneakinggear.esp
+Alir'sArmor.esp
+ArynnsTruhe.esp
+ArynnsDrowWitchHGEC.esp
+Baron Armor.esp
 Black Heart.esp
 DarkSaintHGEC.esp
 DarkSaintUFF.esp
 EY_AoD.esp
+LeatherHunterArmor.esp
 lotusarmorv1.esp
 MHSNKirin.esp
 NexonsArmoryENG.esp
 R18PN - FuruFuru Armor.esp
 RRElphintos.esp
 SOLDNER_Rustung.esp
+TGND - Sinblood's Fantasy Mage.esp
 
 \EndGroup\\
 
@@ -201,6 +210,7 @@ Toggleable Quantity Prompt.esp
 
 SM Encumbrance and Fatigue.esp
 : master reassigned to Nehrim.esm
+NehrimBedrolls.esp
 
 \EndGroup\\
 
@@ -244,7 +254,7 @@ NehrimSneakFix.esp
 \'''''''''''''''''
 
 Enhanced Grabbing.esp
-: Requires master reassigned to Nehrim.esm
+: master reassigned to Nehrim.esm
 
 \EndGroup\\
 
@@ -283,6 +293,9 @@ Attribute.esp
 " New version available.
 Attribute_linear.esp
 Attribute_steps.esp
+Intelligent Learning.esp
+: OBSE
+
 
 \EndGroup\\
 
