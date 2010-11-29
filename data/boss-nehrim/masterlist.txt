@@ -34,7 +34,8 @@ NehrimEnglish.esp
 \BeginGroup\: Earliest mods
 
 ASTnehrimHotfixes01(EN).esp
-Nehrim Improvement.esp
+Nehrim Improvment.esp
+
 
 \EndGroup\\
 
