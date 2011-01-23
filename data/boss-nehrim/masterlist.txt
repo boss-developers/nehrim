@@ -333,6 +333,7 @@ ASTnehrimKimUpgrade.esp
 axolotl lady.esp
 AbyssDemon - Nehrim.esp
 BetterLookingMaleKim.esp
+NehrimFairFemaleKim.esp
 KhajiitRaceforNehrim.esp
 MaleBodyReplacerV4.esp 
 Verrater Demoness.esp
