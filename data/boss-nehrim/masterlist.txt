@@ -110,6 +110,7 @@ Streamline 2.1.esp
 
 GizDredfireNEH_DV.esp
 GizBladeset01Neh.esp
+Gizmodian-VeraxanimaNehrim.esp
 Lederrestung.esp
 Nehrim_Diving_suit.esp
 MODArnTemplar.esp
