@@ -181,9 +181,9 @@ STHotkeys.esp
 \BeginGroup\: Quests and Locations 1
 \----------------------
 \
-\All mods that add or change quests,
-\add player houses,
-\add or change dungeons,
+\All mods that add or change quests, 
+\add player houses, 
+\add or change dungeons, 
 \add or change towns, villiages, cities and/or landscape.
 \
 \Mods not in alphabetical order have been hand placed to avoid conflicts (as much as possible).
