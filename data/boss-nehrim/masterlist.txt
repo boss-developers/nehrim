@@ -309,7 +309,7 @@ Phitt's Phighting Phixes.esp
 PTSneakPenalties.esp 
 : master reassigned to Nehrim.esm
 DeadlyReflex 5 - Combat Moves.esp
-" Nehrim Patch (replacement esp): http://www.tesnexus.com/downloads/file.php?id=35157
+" Nehrim Patch (replacement esp): "http://www.tesnexus.com/downloads/file.php?id=35157"
 Deadly Reflex 5 - Timed block and 150% damage.esp
 : master reassigned to Nehrim.esm
 Deadly Reflex 5 - Timed block and 250% damage.esp
@@ -377,7 +377,7 @@ Nehrim - Refractionless Chameleon.esp
 ScreenControls.esp
 : master reassigned to Nehrim.esm
 MotionBlur.esp
-? Fix available for 'Over-Darkening' issue: http://tr.im/scy6
+? Fix available for 'Over-Darkening' issue: "http://tr.im/scy6"
 
 \EndGroup\\
 
