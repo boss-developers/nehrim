@@ -61,7 +61,7 @@ NehrimWaterMod.esp
 \BeginGroup\: Vanilla Nehrim fixes
 \
 Nehrim Blackscreenfix.esp
-" (warning from the download page that may or may not still apply): WARNING: THIS PLUGIN DOES ONLY WORK ON THE DV! ONLY USE THIS PLUGIN WITH 1.0.3 OF NEHRIM OR IT CAN RESULT IN A DESTROYED GAME 
+" (warning from the download page that may or may not still apply): WARNING: THIS PLUGIN DOES ONLY WORK ON THE DV! ONLY USE THIS PLUGIN WITH 1.0.3 OF NEHRIM OR IT CAN RESULT IN A DESTROYED GAME
 
 \EndGroup\\
 
@@ -302,11 +302,11 @@ Denock Arrows.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 marksman_challenge.esp
-marksman_challenge_alpha5.esp 
+marksman_challenge_alpha5.esp
 martial.esp
 Phitt's Phighting Phixes.esp
 : master reassigned to Nehrim.esm
-PTSneakPenalties.esp 
+PTSneakPenalties.esp
 : master reassigned to Nehrim.esm
 DeadlyReflex 5 - Combat Moves.esp
 " Nehrim Patch (replacement esp): "http://www.tesnexus.com/downloads/file.php?id=35157"
@@ -346,7 +346,7 @@ AbyssDemon - Nehrim.esp
 BetterLookingMaleKim.esp
 NehrimFairFemaleKim.esp
 KhajiitRaceforNehrim.esp
-MaleBodyReplacerV4.esp 
+MaleBodyReplacerV4.esp
 Verrater Demoness.esp
 X.Races.Comp.esp
 
