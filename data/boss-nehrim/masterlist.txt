@@ -138,7 +138,7 @@ Streamline 2.1.esp
 \BeginGroup\: Items (armor and weapons)
 \-------------------------
 \
-\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
+\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
 \Some items will need to go after overhaul or location altering mods to appear.
 
 Equipmentsets 1.1.3.esp
@@ -157,7 +157,7 @@ Underworld Armor.esp
 \--------------------
 \
 \Stuff for use with body replacers.
-\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH:Graphics}} to keep their new look.
+\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
 
 1SB_PureFantasyMage_Outfits.esp
 Alexscorpiansneakinggear.esp
