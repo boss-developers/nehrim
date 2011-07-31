@@ -42,6 +42,7 @@
 
 Nehrim.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+Progress.esm
 HorseCombatMaster.esm
 : master reassigned to Nehrim.esm
 ScreenEffects.esm
@@ -192,6 +193,7 @@ ASTnehrimDonkeyFlute(EN).esp
 \Load order independent. Use only one unless documentation says otherwise.
 
 Enhanced Hotkeys.esp
+: requires master reassigned to Nehrim.esm
 HotkeyCasting.esp
 FastEquipping.esp
 " Use the Nehrim version instead.
@@ -213,6 +215,7 @@ STHotkeys.esp
 \
 \Mods not in alphabetical order have been hand placed to avoid conflicts (as much as possible).
 
+AndrewsTerminus.esp
 NehrimEdelweissHaus.esp
 The Cloud Tower.esp
 
@@ -234,6 +237,7 @@ kuerteeInventoryIsABackpack.esp
 : master reassigned to Nehrim.esm
 WeaponRebalanceNehrim.esp
 Nehrim_Drop_Torch_0.1.esp
+NehrimBrighterTorches_v1.2.esp
 Nehrim_Bigger_Bears.esp
 Nehrim_Bigger_Bears_and_Smaller_Foxes.esp
 Nehrim_Smaller_Foxes.esp
@@ -241,6 +245,9 @@ Nehrim Spinnenfrei.esp
 ? Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
 NehrimWeaponRebalance_EnglishPatch.esp
+NWREV .esp
+NWRMBAD.esp
+NWRBMBD.esp
 NIE.esp
 Ring of Console.esp
 Toggleable Quantity Prompt.esp
@@ -251,11 +258,11 @@ Toggleable Quantity Prompt.esp
 \'''''''
 \
 \Mainly health, encumberance and fatigue overhauls.
-\Will override changes made by overhaul mods like OOO.
 
 SM Encumbrance and Fatigue.esp
 : master reassigned to Nehrim.esm
 NehrimBedrolls.esp
+RealSleepExtended.esp
 Simple Bandages 1.1.esp
 
 \EndGroup\\
@@ -293,6 +300,8 @@ attack and hide harder v2.1.esp
 : master reassigned to Nehrim.esm
 SM Combat Hide.esp
 : master reassigned to Nehrim.esm
+Sneaking Detection Recalibrated.esp
+: master reassigned to Nehrim.esm
 StealthOverhaul_Nehrim.esp
 StealthOverhaul.esp
 : master reassigned to Nehrim.esm
@@ -319,6 +328,8 @@ Enhanced Grabbing.esp
 \
 \Overrides 'overhauls'.
 
+Armorer's Advantage.esp
+: master reassigned to Nehrim.esm
 BFG's Enhanced Armory.esp
 BetterBlocking.esp
 : master reassigned to Nehrim.esm
@@ -351,12 +362,26 @@ Deadly Reflex 5 - Timed block and 250% damage.esp
 
 All+5AttributeModifiers.esp
 Attribute.esp
-" New version available.
 Attribute_linear.esp
 Attribute_steps.esp
 Intelligent Learning.esp
 : OBSE
-
+ProgressGSD.esp
+ProgressMBSP.esp
+progressSBSP.esp
+ProgressRBSP.esp
+ProgressArmorer.esp
+ProgressMercantile.esp
+ExponentialLevEasy.esp
+" Use only one Exponential leveling mod.
+ExponentialLvlExtreme.esp
+" Use only one Exponential leveling mod.
+ExponentialLvlHard.esp
+" Use only one Exponential leveling mod.
+ExponentialLvlModerate.esp
+" Use only one Exponential leveling mod.
+MapLocation&Lvl_Info_begone.esp
+Map_Lvl_Info_begone.esp
 
 \EndGroup\\
 
@@ -416,7 +441,6 @@ MiniMap.esp
 \BeginGroup\: Bashed Patch
 \------------
 
-Bashed Patch FCOM.esp
 Bashed Patch, 0.esp
 Bashed Patch, 1.esp
 Bashed Patch, 2.esp
