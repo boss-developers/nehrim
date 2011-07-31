@@ -194,6 +194,7 @@ ASTnehrimDonkeyFlute(EN).esp
 
 Enhanced Hotkeys.esp
 : requires master reassigned to Nehrim.esm
+HUD Status Bars.esp
 HotkeyCasting.esp
 FastEquipping.esp
 " Use the Nehrim version instead.
@@ -335,6 +336,7 @@ BetterBlocking.esp
 : master reassigned to Nehrim.esm
 Denock Arrows.esp
 : master reassigned to Nehrim.esm
+KamiCAS.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 marksman_challenge.esp
@@ -344,7 +346,7 @@ Phitt's Phighting Phixes.esp
 : master reassigned to Nehrim.esm
 PTSneakPenalties.esp
 : master reassigned to Nehrim.esm
-DeadlyReflex 5 - Combat Moves.esp
+Deadly Reflex 5 - Combat Moves.esp
 " Nehrim Patch (replacement esp): "http://www.tesnexus.com/downloads/file.php?id=35157"
 Deadly Reflex 5 - Timed block and 150% damage.esp
 : master reassigned to Nehrim.esm
