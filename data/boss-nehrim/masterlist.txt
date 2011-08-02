@@ -61,6 +61,7 @@ NehrimEnglish.esp
 
 \BeginGroup\: Earliest mods
 
+NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
 Nehrim Improvment.esp
 
@@ -245,6 +246,7 @@ Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
 ? Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
+" Outdated use this instead: http://www.tesnexus.com/downloads/file.php?id=39736
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
 NWRMBAD.esp
