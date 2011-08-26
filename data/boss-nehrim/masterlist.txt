@@ -42,6 +42,7 @@
 
 Nehrim.esm
 ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+All Natural Base - Nehrim.esm
 Progress.esm
 HorseCombatMaster.esm
 : master reassigned to Nehrim.esm
@@ -55,6 +56,8 @@ ScreenEffects.esm
 \The official Nehrim Data files. These should always load as the first ESPs for Nehrim.
 
 NehrimData.esp
+\AN for Nehrim really does need to sit before the official English data file so it doesn't stomp the visible cell names.
+All Natural Nehrim.esp
 NehrimEnglish.esp
 
 \EndGroup\\
