@@ -66,6 +66,7 @@ NehrimEnglish.esp
 
 NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
+" Outdated use Nehrim English Update instead: http://www.tesnexus.com/downloads/file.php?id=39736
 Nehrim Improvment.esp
 
 
@@ -103,6 +104,7 @@ Nehrim Blackscreenfix.esp
 
 BookTrackerOBSE.esp
 : master reassigned to Nehrim.esm
+CreatureIdles.esp
 Duke Patricks - Who Goes There.esp
 : master reassigned to Nehrim.esm
 fasttravel.esp
@@ -123,6 +125,7 @@ Display Stats.esp
 tw1_fov_adjustor.esp
 : OBSE.
 whN-HHSOA.esp
+
 
 \EndGroup\\
 
