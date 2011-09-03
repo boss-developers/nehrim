@@ -254,6 +254,7 @@ Nehrim Spinnenfrei.esp
 ? Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
 " Outdated use this instead: http://www.tesnexus.com/downloads/file.php?id=39736
+Nehrim XP Progress Bar.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
 NWRMBAD.esp
