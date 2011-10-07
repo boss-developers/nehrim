@@ -242,6 +242,7 @@ DropLitTorchOBSE.esp
 ROM Drop Lit Torches.esp
 : master reassigned to Nehrim.esm
 FastRoasting(EN).esp
+Harvest_Flora for Nehrim.esp
 kuerteeInventoryIsABackpack.esp
 : master reassigned to Nehrim.esm
 WeaponRebalanceNehrim.esp
@@ -270,6 +271,8 @@ Toggleable Quantity Prompt.esp
 \
 \Mainly health, encumberance and fatigue overhauls.
 
+Advanced Health Regen.esp
+Basic Primary needs.esp
 SM Encumbrance and Fatigue.esp
 : master reassigned to Nehrim.esm
 NehrimBedrolls.esp
@@ -339,6 +342,7 @@ Enhanced Grabbing.esp
 \
 \Overrides 'overhauls'.
 
+Archery.esp
 Armorer's Advantage.esp
 : master reassigned to Nehrim.esm
 BFG's Enhanced Armory.esp
