@@ -271,7 +271,7 @@ Toggleable Quantity Prompt.esp
 \
 \Mainly health, encumberance and fatigue overhauls.
 
-Advanced Health Regen.esp
+AdvancedHealthRegen.esp
 Basic Primary needs.esp
 SM Encumbrance and Fatigue.esp
 : master reassigned to Nehrim.esm
