@@ -34,8 +34,8 @@
 \ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true.
 \ The critical FCOM install error message type already includes the FCOM-specific conditional, so you don't need to add another.
 
-\ Upgrade message for 1.7 users:
- IF (<1.8.0.0|"BOSS") GLOBAL WARN: You are using an outdated version of BOSS. An update for BOSS (v1.8) has been released. Download it at "http://www.tesnexus.com/downloads/file.php?id=20516", "http://www.fallout3nexus.com/downloads/file.php?id=10193" or "http://www.newvegasnexus.com/downloads/file.php?id=35999"
+\ Upgrade message for 1.7+ users:
+ IF (<1.9.0.0|"BOSS") GLOBAL WARN: An update for BOSS (v1.9) has been released. Download it at "http://www.tesnexus.com/downloads/file.php?id=20516", "http://www.skyrimnexus.com/downloads/file.php?id=6", "http://www.fallout3nexus.com/downloads/file.php?id=10193" or "http://www.newvegasnexus.com/downloads/file.php?id=35999"
 
 \BeginGroup\: ESMs
 \----
