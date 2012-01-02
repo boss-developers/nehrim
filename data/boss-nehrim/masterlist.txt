@@ -247,6 +247,7 @@ FastRoasting(EN).esp
 Harvest_Flora for Nehrim.esp
 kuerteeInventoryIsABackpack.esp
 : master reassigned to Nehrim.esm
+KuerteeHorseCommands.esp
 WeaponRebalanceNehrim.esp
 Nehrim_Drop_Torch_0.1.esp
 NehrimBrighterTorches_v1.2.esp
