@@ -143,6 +143,9 @@ Oblivion Graphics Extender Support.esp
 ? The support plugin does not actually work. Shaders must be loaded with the shaderlist.
 Streamline 2.1.esp
 : master reassigned to Nehrim.esm
+kuerteeAutoSaveAndTime.esp
+kuerteeAutoFirstThirdPersonView.esp
+kuerteeCleanUp.esp
 
 \EndGroup\\
 
@@ -195,6 +198,7 @@ TGND - Sinblood's Fantasy Mage.esp
 \----------
 
 ASTnehrimDonkeyFlute(EN).esp
+kuerteeHorseCommands.esp
 
 \EndGroup\\
 
@@ -246,7 +250,13 @@ ROM Drop Lit Torches.esp
 FastRoasting(EN).esp
 Harvest_Flora for Nehrim.esp
 kuerteeInventoryIsABackpack.esp
-: master reassigned to Nehrim.esm
+kuerteeGoldIsAnInventoryItem.esp
+kuerteeEncumberingLootArmourAndWeapons.esp
+kuerteeAttributeAndSkillBasedDamageModifiers.esp
+kuerteeBattleFatigueAndInjuries.esp
+kuerteeEatAndSleep.esp
+kuerteeClothingMatters.esp
+
 KuerteeHorseCommands.esp
 WeaponRebalanceNehrim.esp
 Nehrim_Drop_Torch_0.1.esp
@@ -281,11 +291,17 @@ SM Encumbrance and Fatigue.esp
 NehrimBedrolls.esp
 RealSleepExtended.esp
 Simple Bandages 1.1.esp
+kuerteeSittableRocks.esp
+kuerteeNPCsYield.esp
+kuerteeWanderingEncounters.esp
 
 \EndGroup\\
 
 \BeginGroup\: Magic
 \'''''
+kuerteeMagickaBasedEnchantmentLimits.esp
+kuerteeMagickaBasedMagicJeweleryLimits.esp
+kuerteeNehrimNoPersistentEffectDrain.esp
 Spell Delete And Item Remove.esp
 : master reassigned to Nehrim.esm
 Spell Delete.esp
@@ -315,6 +331,8 @@ attack and hide easier v2.1.esp
 : master reassigned to Nehrim.esm
 attack and hide harder v2.1.esp
 : master reassigned to Nehrim.esm
+kuerteeCrimeHasWitnesses.esp
+kuerteeEspyCreatures.esp
 SM Combat Hide.esp
 : master reassigned to Nehrim.esm
 Sneaking Detection Recalibrated.esp
@@ -329,6 +347,7 @@ ZumbsLockpickingMod - OBSE.esp
 ZumbsLockpickingMod - Hide Difficulty Addon.esp
 : master reassigned to Nehrim.esm
 NehrimSneakFix.esp
+
 
 \EndGroup\\
 
@@ -356,6 +375,7 @@ Denock Arrows.esp
 KamiCAS.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
 ? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
+kuerteeNoLootingDuringCombat.esp
 marksman_challenge.esp
 marksman_challenge_alpha5.esp
 martial.esp
