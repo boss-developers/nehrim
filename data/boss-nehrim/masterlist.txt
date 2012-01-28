@@ -256,8 +256,6 @@ kuerteeAttributeAndSkillBasedDamageModifiers.esp
 kuerteeBattleFatigueAndInjuries.esp
 kuerteeEatAndSleep.esp
 kuerteeClothingMatters.esp
-
-KuerteeHorseCommands.esp
 WeaponRebalanceNehrim.esp
 Nehrim_Drop_Torch_0.1.esp
 NehrimBrighterTorches_v1.2.esp
