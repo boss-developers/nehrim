@@ -334,7 +334,9 @@ kuerteeEspyCreatures.esp
 SM Combat Hide.esp
 : master reassigned to Nehrim.esm
 Sneaking Detection Recalibrated.esp
-: master reassigned to Nehrim.esm
+SDR Perks And Patches - Nehrim.esp
+SDR Perks And Patches - Oblivion.esp
+: Use the Nehrim version
 StealthOverhaul_Nehrim.esp
 StealthOverhaul.esp
 : master reassigned to Nehrim.esm
@@ -472,6 +474,7 @@ MotionBlur.esp
 \--------
 
 MiniMap.esp
+PyFFI-Optimized Vanilla Meshes Patch.esp
 
 \EndGroup\\
 
