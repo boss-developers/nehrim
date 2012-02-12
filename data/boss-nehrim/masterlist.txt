@@ -44,6 +44,8 @@
 \----
 
 Nehrim.esm
+Oblivion.esm
+ WARN: This must not be activated. However, it can be useful when porting Oblivion mods to Nehrim.
 All Natural Base - Nehrim.esm
 Progress.esm
 HorseCombatMaster.esm
