@@ -312,6 +312,7 @@ Item Remove.esp
 \Overrides overhauls. New spells and magic systems go here for convenience.
 
 Nehrim - New Rune Spells.esp
+\EndGroup\\
 
 \BeginGroup\: Alchemy
 \'''''''
@@ -336,9 +337,16 @@ kuerteeEspyCreatures.esp
 SM Combat Hide.esp
 : master reassigned to Nehrim.esm
 Sneaking Detection Recalibrated.esp
+SDR_Core.esp
+ REQ: "SDR_obse.dll", "AddActorValues.dll", "OBSE"
+SDR_NPC Behavior.esp
+" SM Combat Hide, which is included in this plugin.
 SDR Perks And Patches - Nehrim.esp
+SDR_Perks And Patches (Nehrim).esp
 SDR Perks And Patches - Oblivion.esp
-: Use the Nehrim version
+ERROR: Use the Nehrim version
+SDR_Perks And Patches (Oblvion).esp
+ERROR: Use the Nehrim version
 StealthOverhaul_Nehrim.esp
 StealthOverhaul.esp
 : master reassigned to Nehrim.esm
