@@ -345,7 +345,7 @@ SDR Perks And Patches - Nehrim.esp
 SDR_Perks And Patches (Nehrim).esp
 SDR Perks And Patches - Oblivion.esp
 ERROR: Use the Nehrim version
-SDR_Perks And Patches (Oblvion).esp
+SDR_Perks And Patches (Oblivion).esp
 ERROR: Use the Nehrim version
 StealthOverhaul_Nehrim.esp
 StealthOverhaul.esp
