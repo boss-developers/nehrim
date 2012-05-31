@@ -35,10 +35,10 @@
 \ The critical FCOM install error message type already includes the FCOM-specific conditional, so you don't need to add another.
 
 \ Upgrade message for 1.7+ users:
- IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/downloads/file.php?id=20516", "http://skyrim.nexusmods.com/downloads/file.php?id=6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
+ IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/mods/20516", "http://skyrim.nexusmods.com/downloads/file.php?id=6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
 
 
-\ ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
+\ ? Masterlist Revision: 4368 (May 8, 2012)
 
 \BeginGroup\: ESMs
 \----
@@ -70,7 +70,7 @@ NehrimEnglish.esp
 
 NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
-" Outdated use Nehrim English Update instead: http://www.tesnexus.com/downloads/file.php?id=39736
+" Outdated use Nehrim English Update instead: http://oblivion.nexusmods.com/mods/39736
 Nehrim Improvment.esp
 
 
@@ -267,7 +267,7 @@ Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
 ? Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
-" Outdated use this instead: http://www.tesnexus.com/downloads/file.php?id=39736
+" Outdated use this instead: http://oblivion.nexusmods.com/mods/39736
 Nehrim XP Progress Bar.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
@@ -394,7 +394,7 @@ Phitt's Phighting Phixes.esp
 PTSneakPenalties.esp
 : master reassigned to Nehrim.esm
 Deadly Reflex 5 - Combat Moves.esp
-" Nehrim Patch (replacement esp): "http://www.tesnexus.com/downloads/file.php?id=35157"
+" Nehrim Patch (replacement esp): "http://oblivion.nexusmods.com/mods/35157"
 Deadly Reflex 5 - Timed block and 150% damage.esp
 : master reassigned to Nehrim.esm
 Deadly Reflex 5 - Timed block and 250% damage.esp
@@ -476,7 +476,6 @@ Nehrim - Refractionless Chameleon.esp
 ScreenControls.esp
 : master reassigned to Nehrim.esm
 MotionBlur.esp
-? Fix available for 'Over-Darkening' issue: "http://tr.im/scy6"
 
 \EndGroup\\
 
