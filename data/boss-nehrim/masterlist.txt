@@ -1,47 +1,43 @@
-﻿\ Masterlist Syntax Notes
-\
-\ Although two syntaxes (MF1 & MF2) are available, only the most common parts of the more general syntax (MF1) is covered here.
-\ See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the Google Code repository for full details.
-\
-\  * Use blank lines to separate mods that are grouped together or where it helps readability.
-\  * Use silent comments when you think something needs clarification to others reading the masterlist (such as when a mod looks like it is misspelled, but is correct).
-\  * Only make edits/additions you're confident about - otherwise discuss the issue on the official forum threads.
-\  * If you're unsure on how to write something in the correct syntax, check the masterlists for examples, and don't be afraid to ask other committers for help.
-\  * When you include a web link in a message, enclose it in double quotes "", for example: www.example.org should be written "www.example.org".
-\  * When you list Bash Tags for a mod, separate them using ", " and not just ",". Eg. {{BASH: Graphics,NoMerge}} should be written {{BASH: Graphics, NoMerge}}. This improves readability in the BOSSlog and the masterlist itself.
-\  * Don't include any HTML formatting in messages. In particular, web links do not need to be formatted as HTML hyperlinks, as BOSS will do this automatically.
-\  * Don't duplicate lines using different syntaxes. A line only needs to be written in one syntax.
-\  * As the majority of BOSS users use versions that only support MF1, write in that where possible.
-\
-\ Comment Type                      Symbol      Description
-\ =====================================================================
-\ Silent comment                    \           A silent comment, ignored by BOSS.
-\ General comment                   ?           A general comment for the mod above.
-\ Bash Tag suggestion               %           A Bash Tag suggestion for the mod above.
-\ Requirement                       :           An installation requirement for the mod above.
-\ Incompatibility                   "           A specific incompatibility for the mod above.
-\ OOO-specific comment              $           A comment that is only displayed if OOO is installed.
-\ Better Cities-specific comment    ^           A comment that is only displayed if Better Cities is installed.
-\ Critical FCOM install error       >*          Prints an error message if FCOM is installed.
-\
-\ The symbol is followed by a space then the message string.
-\
-\ Conditional Type			Symbol		Description
-\ ===================================================================================
-\ FCOM-installed line			>		Only parses the line if FCOM is installed.
-\ FCOM-not-installed line		<		Only parses the line if FCOM is not installed.
-\
-\ Conditionals can be put before any mod or message line, and the line will only be processed if the conditional is true.
-\ The critical FCOM install error message type already includes the FCOM-specific conditional, so you don't need to add another.
+﻿/*
+Masterlist Information: $Revision$, $Date$, $LastChangedBy$
 
-\ Upgrade message for 1.7+ users:
+Masterlist Syntax Notes
+
+Only the basics of the most commonly-used parts of the syntax are covered here. See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the Google Code repository for full details.
+
+  * Use blank lines to separate mods that are grouped together or where it helps readability.
+  * Use silent comments when you think something needs clarification to others reading the masterlist (such as when a mod looks like it is misspelled, but is correct).
+  * Only make edits/additions you're confident about - otherwise discuss the issue on the official forum threads.
+  * If you're unsure on how to write something in the correct syntax, check the masterlists for examples, and don't be afraid to ask other committers for help.
+  * When you include a web link in a message, enclose it in double quotes "", for example: www.example.org should be written "www.example.org".
+  * When you list Bash Tags for a mod, separate them using ", " and not just ",". Eg. {{BASH: Graphics,NoMerge}} should be written {{BASH: Graphics, NoMerge}}. This improves readability in the BOSSlog and the masterlist itself.
+  * Don't include any HTML formatting in messages. In particular, web links do not need to be formatted as HTML hyperlinks, as BOSS will do this automatically.
+  * Put variable lines at the top of the masterlist, just under this section of text.
+  * Put global messages at the top of the masterlist, just under any variable lines.
+
+Silent Comments:
+
+Silent comments are ignored by BOSS, and may be written by starting a line with  "//" (not including quotes).
+You cannot start a silent comment part-way into a line, only whole lines may be silent.
+
+ Message Type                      Keyword      Description
+ =====================================================================
+ General message                   SAY          A general message for the mod above.
+ Bash Tag suggestion               TAG          A Bash Tag suggestion for the mod above.
+ Requirement                       REQ          An installation requirement for the mod above.
+ Incompatibility                   INC          A specific incompatibility for the mod above.
+ Dirty mod message                 DIRTY        A message relating to dirty edits in the mod above.
+ Warning                           WARN         A message used to display a non-critical warning for the mod above.
+ Error                             ERROR        A message used to display a critical (ie. install-breaking) error for the mod above.
+
+Message keywords should be indented by two spaces and followed by a colon ':' then the message string.
+*/
+
+// Upgrade message for 1.7+ users:
  IF (<2.0.1.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.0.1) has been released. Download it at "http://oblivion.nexusmods.com/mods/20516", "http://skyrim.nexusmods.com/mods/6", "http://fallout3.nexusmods.com/mods/10193" or "http://newvegas.nexusmods.com/mods/35999"
 
-
-\ ? Masterlist Information: $Revision$, $Date$, $LastChangedBy$
-
-\BeginGroup\: ESMs
-\----
+BEGINGROUP: ESMs
+//----
 
 Nehrim.esm
 Oblivion.esm
@@ -49,71 +45,71 @@ Oblivion.esm
 All Natural Base - Nehrim.esm
 Progress.esm
 HorseCombatMaster.esm
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 ScreenEffects.esm
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Nehrim Plugins
-\--------
-\
-\The official Nehrim Data files. These should always load as the first ESPs for Nehrim.
+BEGINGROUP: Nehrim Plugins
+//--------
+//
+//The official Nehrim Data files. These should always load as the first ESPs for Nehrim.
 
 NehrimData.esp
-\AN for Nehrim really does need to sit before the official English data file so it doesn't stomp the visible cell names.
+//AN for Nehrim really does need to sit before the official English data file so it doesn't stomp the visible cell names.
 All Natural Nehrim.esp
 NehrimEnglish.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Earliest mods
+BEGINGROUP: Earliest mods
 
 NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
-" Outdated use Nehrim English Update instead: http://oblivion.nexusmods.com/mods/39736
+  INC: Outdated use Nehrim English Update instead: http://oblivion.nexusmods.com/mods/39736
 Nehrim Improvment.esp
 
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Lighting
-\''''''''
-\
-\Should load early to allow more 'important' mods to override.
+BEGINGROUP: Lighting
+//''''''''
+//
+//Should load early to allow more 'important' mods to override.
 
 WindowLightingSystem.esp
-: master reassigned to Nehrim.esm
-? Unnecessary as many windows are lit.
+  REQ: master reassigned to Nehrim.esm
+  SAY: Unnecessary as many windows are lit.
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Water and lava tweaks
-\''''''''''''
-\
+BEGINGROUP: Water and lava tweaks
+//''''''''''''
+//
 NehrimWaterMod.esp
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Vanilla Nehrim fixes
-\
+BEGINGROUP: Vanilla Nehrim fixes
+//
 Nehrim Blackscreenfix.esp
-" (warning from the download page that may or may not still apply): WARNING: THIS PLUGIN DOES ONLY WORK ON THE DV! ONLY USE THIS PLUGIN WITH 1.0.3 OF NEHRIM OR IT CAN RESULT IN A DESTROYED GAME
+  INC: (warning from the download page that may or may not still apply): WARNING: THIS PLUGIN DOES ONLY WORK ON THE DV! ONLY USE THIS PLUGIN WITH 1.0.3 OF NEHRIM OR IT CAN RESULT IN A DESTROYED GAME
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: General Base Mods
-\'''''''''''''''''
-\
-\Includes nearly all new items (except weapons and armor).
-\Low priority mods.
+BEGINGROUP: General Base Mods
+//'''''''''''''''''
+//
+//Includes nearly all new items (except weapons and armor).
+//Low priority mods.
 
 BookTrackerOBSE.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 CreatureIdles.esp
 Duke Patricks - Who Goes There.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 fasttravel.esp
 Immersive Combat Music.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 kuerteeAutoFirstThirdPersonView.esp
 NehrimCameraMod.esp
 Nehrim Fast Travel.esp
@@ -123,39 +119,39 @@ ToggleZoomAnyKey.esp
 QZ Easy Menus.esp
 Quest Log Manager.esp
 Side's EAX Control.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Spells Delete Only 3.2.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Display Stats.esp
 tw1_fov_adjustor.esp
-: OBSE.
+  REQ: OBSE.
 whN-HHSOA.esp
 
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Load Order Independent Mods
-\'''''''''''''''''
-\
-\These mods don't need to go anywhere, they're fully scripted, so load them early, out of the way of the more placement-critical sections near the bottom of the masterlist.
+BEGINGROUP: Load Order Independent Mods
+//'''''''''''''''''
+//
+//These mods don't need to go anywhere, they're fully scripted, so load them early, out of the way of the more placement-critical sections near the bottom of the masterlist.
 
 FormID Finder4.esp
 Oblivion Graphics Extender Support.esp
-: master reassigned to Nehrim.esm
-? The support plugin does not actually work. Shaders must be loaded with the shaderlist.
+  REQ: master reassigned to Nehrim.esm
+  SAY: The support plugin does not actually work. Shaders must be loaded with the shaderlist.
 Streamline 2.1.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 kuerteeAutoSaveAndTime.esp
 kuerteeAutoFirstThirdPersonView.esp
 kuerteeCleanUp.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Items (armor and weapons)
-\-------------------------
-\
-\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
-\Some items will need to go after overhaul or location altering mods to appear.
+BEGINGROUP: Items (armor and weapons)
+//-------------------------
+//
+//VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
+//Some items will need to go after overhaul or location altering mods to appear.
 
 Equipmentsets 1.1.3.esp
 GizDredfireNEH_DV.esp
@@ -167,13 +163,13 @@ MODArnTemplar.esp
 Underworld Armor.esp
 
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Body Replacer Armour & Clothing
-\--------------------
-\
-\Stuff for use with body replacers.
-\VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
+BEGINGROUP: Body Replacer Armour & Clothing
+//--------------------
+//
+//Stuff for use with body replacers.
+//VITAL for overhaul mod users: Wrye Bash tag all armor replacers {{BASH: Graphics}} to keep their new look.
 
 1SB_PureFantasyMage_Outfits.esp
 Alexscorpiansneakinggear.esp
@@ -194,61 +190,61 @@ RRElphintos.esp
 SOLDNER_Rustung.esp
 TGND - Sinblood's Fantasy Mage.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Horse Mods
-\----------
+BEGINGROUP: Horse Mods
+//----------
 
 ASTnehrimDonkeyFlute(EN).esp
 kuerteeHorseCommands.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Hotkeys
-\---------
-\Load order independent. Use only one unless documentation says otherwise.
+BEGINGROUP: Hotkeys
+//---------
+//Load order independent. Use only one unless documentation says otherwise.
 
 Enhanced Hotkeys.esp
-: requires master reassigned to Nehrim.esm
+  REQ: requires master reassigned to Nehrim.esm
 HUD Status Bars.esp
 HotkeyCasting.esp
 FastEquipping.esp
-" Use the Nehrim version instead.
-? Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
+  INC: Use the Nehrim version instead.
+  SAY: Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
 FastEquippingNehrim.esp
-? Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
+  SAY: Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
 STHotkeys.esp
-? Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
+  SAY: Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Quests and Locations 1
-\----------------------
-\
-\All mods that add or change quests,
-\add player houses,
-\add or change dungeons,
-\add or change towns, villiages, cities and/or landscape.
-\
-\Mods not in alphabetical order have been hand placed to avoid conflicts (as much as possible).
+BEGINGROUP: Quests and Locations 1
+//----------------------
+//
+//All mods that add or change quests,
+//add player houses,
+//add or change dungeons,
+//add or change towns, villiages, cities and/or landscape.
+//
+//Mods not in alphabetical order have been hand placed to avoid conflicts (as much as possible).
 
 AndrewsTerminus.esp
 NehrimEdelweissHaus.esp
 The Cloud Tower.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Overrides
-\---------
-\
-\Mods that deliberately change specific things about vanilla Oblivion, overhauls or other mods.
-\Some late loading quests and locations in here too.
+BEGINGROUP: Overrides
+//---------
+//
+//Mods that deliberately change specific things about vanilla Oblivion, overhauls or other mods.
+//Some late loading quests and locations in here too.
 
 ATakesAll.esp
 DropLitTorchOBSE.esp
-: requires master reassigned to Nehrim.esm
+  REQ: requires master reassigned to Nehrim.esm
 ROM Drop Lit Torches.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 FastRoasting(EN).esp
 Harvest_Flora for Nehrim.esp
 kuerteeInventoryIsABackpack.esp
@@ -265,9 +261,9 @@ Nehrim_Bigger_Bears.esp
 Nehrim_Bigger_Bears_and_Smaller_Foxes.esp
 Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
-? Removes Spiders
+  SAY: Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
-" Outdated use this instead: http://oblivion.nexusmods.com/mods/39736
+  INC: Outdated use this instead: http://oblivion.nexusmods.com/mods/39736
 Nehrim XP Progress Bar.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
@@ -277,17 +273,17 @@ NIE.esp
 Ring of Console.esp
 Toggleable Quantity Prompt.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Realism
-\'''''''
-\
-\Mainly health, encumberance and fatigue overhauls.
+BEGINGROUP: Realism
+//'''''''
+//
+//Mainly health, encumberance and fatigue overhauls.
 
 AdvancedHealthRegen.esp
 Basic Primary needs.esp
 SM Encumbrance and Fatigue.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 NehrimBedrolls.esp
 RealSleepExtended.esp
 Simple Bandages 1.1.esp
@@ -295,52 +291,52 @@ kuerteeSittableRocks.esp
 kuerteeNPCsYield.esp
 kuerteeWanderingEncounters.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Magic
-\'''''
+BEGINGROUP: Magic
+//'''''
 kuerteeMagickaBasedEnchantmentLimits.esp
 kuerteeMagickaBasedMagicJeweleryLimits.esp
 kuerteeNehrimNoPersistentEffectDrain.esp
 Spell Delete And Item Remove.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Spell Delete.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Item Remove.esp
-: master reassigned to Nehrim.esm
-\
-\Overrides overhauls. New spells and magic systems go here for convenience.
+  REQ: master reassigned to Nehrim.esm
+//
+//Overrides overhauls. New spells and magic systems go here for convenience.
 
 Nehrim - New Rune Spells.esp
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Alchemy
-\'''''''
+BEGINGROUP: Alchemy
+//'''''''
 Nehrim Bonegrinder.esp
 Lightweight Potions.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Thievery, Sneaking and Crime
-\''''''''''''''''''''''''''''
-\
-\Overrides overhauls.
+BEGINGROUP: Thievery, Sneaking and Crime
+//''''''''''''''''''''''''''''
+//
+//Overrides overhauls.
 
 attack and hide medium v2.1.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 attack and hide easier v2.1.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 attack and hide harder v2.1.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 kuerteeCrimeHasWitnesses.esp
 kuerteeEspyCreatures.esp
 SM Combat Hide.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Sneaking Detection Recalibrated.esp
 SDR_Core.esp
  REQ: "SDR_obse.dll", "AddActorValues.dll", "OBSE"
 SDR_NPC Behavior.esp
-" SM Combat Hide, which is included in this plugin.
+  INC: SM Combat Hide, which is included in this plugin.
 SDR Perks And Patches - Nehrim.esp
 SDR_Perks And Patches (Nehrim).esp
 SDR Perks And Patches - Oblivion.esp
@@ -349,72 +345,72 @@ SDR_Perks And Patches (Oblivion).esp
 ERROR: Use the Nehrim version
 StealthOverhaul_Nehrim.esp
 StealthOverhaul.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Realistic Sneak for NPCs.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 ZumbsLockpickingMod - OBSE.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 ZumbsLockpickingMod - Hide Difficulty Addon.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 NehrimSneakFix.esp
 
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Guards and Bounty
-\'''''''''''''''''
+BEGINGROUP: Guards and Bounty
+//'''''''''''''''''
 
 Enhanced Grabbing.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Combat
-\''''''
-\
-\Overrides 'overhauls'.
+BEGINGROUP: Combat
+//''''''
+//
+//Overrides 'overhauls'.
 
 Archery.esp
 Armorer's Advantage.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 BFG's Enhanced Armory.esp
 BetterBlocking.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Denock Arrows.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 KamiCAS.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
-? Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
+  SAY: Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 kuerteeNoLootingDuringCombat.esp
 marksman_challenge.esp
 marksman_challenge_alpha5.esp
 martial.esp
 Phitt's Phighting Phixes.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 PTSneakPenalties.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Deadly Reflex 5 - Combat Moves.esp
-" Nehrim Patch (replacement esp): "http://oblivion.nexusmods.com/mods/35157"
+  INC: Nehrim Patch (replacement esp): "http://oblivion.nexusmods.com/mods/35157"
 Deadly Reflex 5 - Timed block and 150% damage.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 Deadly Reflex 5 - Timed block and 250% damage.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 
-\EndGroup\\
+ENDGROUP
 
 
-\BeginGroup\: Skills, Attributes and Leveling
-\'''''''''''''''''''''''''''''''
-\
-\Unlikely to interact with other kinds of mods.
-\Includes related mods bundled with OOO and similar optional items from Fran's.
+BEGINGROUP: Skills, Attributes and Leveling
+//'''''''''''''''''''''''''''''''
+//
+//Unlikely to interact with other kinds of mods.
+//Includes related mods bundled with OOO and similar optional items from Fran's.
 
 All+5AttributeModifiers.esp
 Attribute.esp
 Attribute_linear.esp
 Attribute_steps.esp
 Intelligent Learning.esp
-: OBSE
+  REQ: OBSE
 ProgressGSD.esp
 ProgressMBSP.esp
 progressSBSP.esp
@@ -422,22 +418,22 @@ ProgressRBSP.esp
 ProgressArmorer.esp
 ProgressMercantile.esp
 ExponentialLevEasy.esp
-" Use only one Exponential leveling mod.
+  INC: Use only one Exponential leveling mod.
 ExponentialLvlExtreme.esp
-" Use only one Exponential leveling mod.
+  INC: Use only one Exponential leveling mod.
 ExponentialLvlHard.esp
-" Use only one Exponential leveling mod.
+  INC: Use only one Exponential leveling mod.
 ExponentialLvlModerate.esp
-" Use only one Exponential leveling mod.
+  INC: Use only one Exponential leveling mod.
 MapLocation&Lvl_Info_begone.esp
 Map_Lvl_Info_begone.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Beauty Packs & Race Changes\Addons
-\--------------------------
-\
-\Hair, eyes, race addons & changes and other cosmetics.
+BEGINGROUP: Beauty Packs & Race Changes\Addons
+//--------------------------
+//
+//Hair, eyes, race addons & changes and other cosmetics.
 
 ASTnehrimKimUpgrade.esp
 axolotl lady.esp
@@ -450,45 +446,45 @@ Verrater Demoness.esp
 X.Races.Comp.esp
 
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Companions
-\----------
-\
-\Those related to companion mod systems. Most others in Quests section.
-\Recommended by authors to load very late.
-\
-\Mods with custom hair and eyes need tags.
+BEGINGROUP: Companions
+//----------
+//
+//Those related to companion mod systems. Most others in Quests section.
+//Recommended by authors to load very late.
+//
+//Mods with custom hair and eyes need tags.
 
 CompanionMaster.esp
-? Some menu functions may not work.
+  SAY: Some menu functions may not work.
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Shader mods
-\-----------
-\
-\Need to go after new items to affect them.
+BEGINGROUP: Shader mods
+//-----------
+//
+//Need to go after new items to affect them.
 
 Nehrim_Initial_Glow-Armor_only.esp
 Initial_Glow-all.esp
 Nehrim - Refractionless Chameleon.esp
 ScreenControls.esp
-: master reassigned to Nehrim.esm
+  REQ: master reassigned to Nehrim.esm
 MotionBlur.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Pre Bash
-\--------
+BEGINGROUP: Pre Bash
+//--------
 
 MiniMap.esp
 PyFFI-Optimized Vanilla Meshes Patch.esp
 
-\EndGroup\\
+ENDGROUP
 
-\BeginGroup\: Bashed Patch
-\------------
+BEGINGROUP: Bashed Patch
+//------------
 
 Bashed Patch, 0.esp
 Bashed Patch, 1.esp
@@ -505,4 +501,4 @@ Bashed Patch, Warrior.esp
 Bashed Patch, Thief.esp
 Bashed Patch, Mage.esp
 Bashed Patch, Test.esp
-\EndGroup\\
+ENDGROUP
