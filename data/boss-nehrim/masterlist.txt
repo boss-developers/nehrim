@@ -34,7 +34,7 @@ Message keywords should be indented by two spaces and followed by a colon ':' th
 */
 
 // Upgrade message for 1.7+ users:
-  IF (<2.1.0.0|"BOSS") GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
+  IF VERSION("BOSS", "2.1.0.0", <) GLOBAL WARN: An update for BOSS (v2.1.0) has been released. Download it at "http://code.google.com/p/better-oblivion-sorting-software/downloads/list"
 
 BEGINGROUP: ESMs
 //----
@@ -48,7 +48,7 @@ HorseCombatMaster.esm
   REQ: master reassigned to Nehrim.esm
 ScreenEffects.esm
 
-ENDGROUP
+ENDGROUP: ESMs
 
 BEGINGROUP: Nehrim Plugins
 //--------
@@ -60,7 +60,7 @@ NehrimData.esp
 All Natural Nehrim.esp
 NehrimEnglish.esp
 
-ENDGROUP
+ENDGROUP: Nehrim Plugins
 
 BEGINGROUP: Earliest mods
 
@@ -70,7 +70,7 @@ ASTnehrimHotfixes01(EN).esp
 Nehrim Improvment.esp
 
 
-ENDGROUP
+ENDGROUP: Earliest mods
 
 BEGINGROUP: Lighting
 //''''''''
@@ -81,20 +81,20 @@ WindowLightingSystem.esp
   REQ: master reassigned to Nehrim.esm
   SAY: Unnecessary as many windows are lit.
 
-ENDGROUP
+ENDGROUP: Lighting
 
 BEGINGROUP: Water and lava tweaks
 //''''''''''''
 //
 NehrimWaterMod.esp
-ENDGROUP
+ENDGROUP:
 
 BEGINGROUP: Vanilla Nehrim fixes
 //
 Nehrim Blackscreenfix.esp
   INC: (warning from the download page that may or may not still apply): WARNING: THIS PLUGIN DOES ONLY WORK ON THE DV! ONLY USE THIS PLUGIN WITH 1.0.3 OF NEHRIM OR IT CAN RESULT IN A DESTROYED GAME
 
-ENDGROUP
+ENDGROUP: Vanilla Nehrim fixes
 
 BEGINGROUP: General Base Mods
 //'''''''''''''''''
@@ -128,7 +128,7 @@ tw1_fov_adjustor.esp
 whN-HHSOA.esp
 
 
-ENDGROUP
+ENDGROUP: General Base Mods
 
 BEGINGROUP: Load Order Independent Mods
 //'''''''''''''''''
@@ -145,7 +145,7 @@ kuerteeAutoSaveAndTime.esp
 kuerteeAutoFirstThirdPersonView.esp
 kuerteeCleanUp.esp
 
-ENDGROUP
+ENDGROUP: General Base Mods
 
 BEGINGROUP: Items (armor and weapons)
 //-------------------------
@@ -163,7 +163,7 @@ MODArnTemplar.esp
 Underworld Armor.esp
 
 
-ENDGROUP
+ENDGROUP: Items (armor and weapons)
 
 BEGINGROUP: Body Replacer Armour & Clothing
 //--------------------
@@ -190,7 +190,7 @@ RRElphintos.esp
 SOLDNER_Rustung.esp
 TGND - Sinblood's Fantasy Mage.esp
 
-ENDGROUP
+ENDGROUP: Body Replacer Armour & Clothing
 
 BEGINGROUP: Horse Mods
 //----------
@@ -198,7 +198,7 @@ BEGINGROUP: Horse Mods
 ASTnehrimDonkeyFlute(EN).esp
 kuerteeHorseCommands.esp
 
-ENDGROUP
+ENDGROUP: Horse Mods
 
 BEGINGROUP: Hotkeys
 //---------
@@ -216,7 +216,7 @@ FastEquippingNehrim.esp
 STHotkeys.esp
   SAY: Don't use hotkeys to change Warcry-style 'set' equipment. Game bug.
 
-ENDGROUP
+ENDGROUP: Hotkeys
 
 BEGINGROUP: Quests and Locations 1
 //----------------------
@@ -232,7 +232,7 @@ AndrewsTerminus.esp
 NehrimEdelweissHaus.esp
 The Cloud Tower.esp
 
-ENDGROUP
+ENDGROUP: Quests and Locations 1
 
 BEGINGROUP: Overrides
 //---------
@@ -273,7 +273,7 @@ NIE.esp
 Ring of Console.esp
 Toggleable Quantity Prompt.esp
 
-ENDGROUP
+ENDGROUP: Overrides
 
 BEGINGROUP: Realism
 //'''''''
@@ -291,7 +291,7 @@ kuerteeSittableRocks.esp
 kuerteeNPCsYield.esp
 kuerteeWanderingEncounters.esp
 
-ENDGROUP
+ENDGROUP: Realism
 
 BEGINGROUP: Magic
 //'''''
@@ -308,14 +308,14 @@ Item Remove.esp
 //Overrides overhauls. New spells and magic systems go here for convenience.
 
 Nehrim - New Rune Spells.esp
-ENDGROUP
+ENDGROUP: Magic
 
 BEGINGROUP: Alchemy
 //'''''''
 Nehrim Bonegrinder.esp
 Lightweight Potions.esp
 
-ENDGROUP
+ENDGROUP: Alchemy
 
 BEGINGROUP: Thievery, Sneaking and Crime
 //''''''''''''''''''''''''''''
@@ -355,7 +355,7 @@ ZumbsLockpickingMod - Hide Difficulty Addon.esp
 NehrimSneakFix.esp
 
 
-ENDGROUP
+ENDGROUP: Thievery, Sneaking and Crime
 
 BEGINGROUP: Guards and Bounty
 //'''''''''''''''''
@@ -363,7 +363,7 @@ BEGINGROUP: Guards and Bounty
 Enhanced Grabbing.esp
   REQ: master reassigned to Nehrim.esm
 
-ENDGROUP
+ENDGROUP: Guards and Bounty
 
 BEGINGROUP: Combat
 //''''''
@@ -396,7 +396,7 @@ Deadly Reflex 5 - Timed block and 150% damage.esp
 Deadly Reflex 5 - Timed block and 250% damage.esp
   REQ: master reassigned to Nehrim.esm
 
-ENDGROUP
+ENDGROUP: Combat
 
 
 BEGINGROUP: Skills, Attributes and Leveling
@@ -428,7 +428,7 @@ ExponentialLvlModerate.esp
 MapLocation&Lvl_Info_begone.esp
 Map_Lvl_Info_begone.esp
 
-ENDGROUP
+ENDGROUP: Skills, Attributes and Leveling
 
 BEGINGROUP: Beauty Packs & Race Changes\Addons
 //--------------------------
@@ -446,7 +446,7 @@ Verrater Demoness.esp
 X.Races.Comp.esp
 
 
-ENDGROUP
+ENDGROUP: Beauty Packs & Race Changes\Addons
 
 BEGINGROUP: Companions
 //----------
@@ -459,7 +459,7 @@ BEGINGROUP: Companions
 CompanionMaster.esp
   SAY: Some menu functions may not work.
 
-ENDGROUP
+ENDGROUP: Companions
 
 BEGINGROUP: Shader mods
 //-----------
@@ -473,7 +473,7 @@ ScreenControls.esp
   REQ: master reassigned to Nehrim.esm
 MotionBlur.esp
 
-ENDGROUP
+ENDGROUP: Shader mods
 
 BEGINGROUP: Pre Bash
 //--------
@@ -481,7 +481,7 @@ BEGINGROUP: Pre Bash
 MiniMap.esp
 PyFFI-Optimized Vanilla Meshes Patch.esp
 
-ENDGROUP
+ENDGROUP: Pre Bash
 
 BEGINGROUP: Bashed Patch
 //------------
@@ -501,4 +501,4 @@ Bashed Patch, Warrior.esp
 Bashed Patch, Thief.esp
 Bashed Patch, Mage.esp
 Bashed Patch, Test.esp
-ENDGROUP
+ENDGROUP: Bashed Patch
