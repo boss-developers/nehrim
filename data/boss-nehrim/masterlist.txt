@@ -113,6 +113,7 @@ Immersive Combat Music.esp
 kuerteeAutoFirstThirdPersonView.esp
 NehrimCameraMod.esp
 Nehrim Fast Travel.esp
+Nehrim Fast Travel 2011.esp
 NehrimGrassFix.esp
 OBGE - Liquid Water Nehrim.esp
 ToggleZoomAnyKey.esp
