@@ -244,6 +244,7 @@ BEGINGROUP: Overrides
 ATakesAll.esp
 DropLitTorchOBSE.esp
   REQ: requires master reassigned to Nehrim.esm
+DynamicFootPositionNehrim.esp
 ROM Drop Lit Torches.esp
   REQ: master reassigned to Nehrim.esm
 FastRoasting(EN).esp
