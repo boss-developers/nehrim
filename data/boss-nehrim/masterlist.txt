@@ -384,6 +384,7 @@ KamiCAS.esp
 kuerteeAttributeAndSkillBasedDamageModifiers.esp
   SAY: Make sure to set calculateFromVanilla in the included ini file to 0 when used alongside other combat mods.
 kuerteeNoLootingDuringCombat.esp
+kuerteeNehrimBattleFatigueAndInjuries.esp
 marksman_challenge.esp
 marksman_challenge_alpha5.esp
 martial.esp
