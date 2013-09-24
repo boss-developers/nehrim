@@ -66,7 +66,7 @@ BEGINGROUP: Earliest mods
 
 NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
-  INC: Outdated use Nehrim English Update instead: http://oblivion.nexusmods.com/mods/39736
+  INC: Outdated, use "http://oblivion.nexusmods.com/mods/39736 Nehrim English Update" instead.
 Nehrim Improvment.esp
 
 
@@ -265,7 +265,7 @@ Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
   SAY: Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
-  INC: Outdated use this instead: http://oblivion.nexusmods.com/mods/39736
+  INC: Outdated, use "http://oblivion.nexusmods.com/mods/39736 this" instead.
 Nehrim XP Progress Bar.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
