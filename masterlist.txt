@@ -1,6 +1,4 @@
 ﻿/*
-Masterlist Information: $Revision$, $Date$, $LastChangedBy$
-
 Masterlist Syntax Notes
 
 Only the basics of the most commonly-used parts of the syntax are covered here. See the BOSS Masterlist Syntax.html documentation file in data/boss-common/ on the BOSS code repository for full details.
