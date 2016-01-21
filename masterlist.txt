@@ -64,7 +64,7 @@ BEGINGROUP: Earliest mods
 
 NehrimEnglishUpdate.esp
 ASTnehrimHotfixes01(EN).esp
-  INC: Outdated, use "http://oblivion.nexusmods.com/mods/39736 Nehrim English Update" instead.
+  INC: Outdated, use "http://www.nexusmods.com/oblivion/mods/39736 Nehrim English Update" instead.
 Nehrim Improvment.esp
 
 
@@ -263,7 +263,7 @@ Nehrim_Smaller_Foxes.esp
 Nehrim Spinnenfrei.esp
   SAY: Removes Spiders
 NehrimTEMP_ENGRISH_TEXT.esp
-  INC: Outdated, use "http://oblivion.nexusmods.com/mods/39736 this" instead.
+  INC: Outdated, use "http://www.nexusmods.com/oblivion/mods/39736 this" instead.
 Nehrim XP Progress Bar.esp
 NehrimWeaponRebalance_EnglishPatch.esp
 NWREV .esp
@@ -391,7 +391,7 @@ Phitt's Phighting Phixes.esp
 PTSneakPenalties.esp
   REQ: master reassigned to Nehrim.esm
 Deadly Reflex 5 - Combat Moves.esp
-  INC: Nehrim Patch (replacement esp): "http://oblivion.nexusmods.com/mods/35157"
+  INC: Nehrim Patch (replacement esp): "http://www.nexusmods.com/oblivion/mods/35157"
 Deadly Reflex 5 - Timed block and 150% damage.esp
   REQ: master reassigned to Nehrim.esm
 Deadly Reflex 5 - Timed block and 250% damage.esp
